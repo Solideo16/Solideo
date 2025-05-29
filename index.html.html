@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil Soli Deo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Halo, Sobat Branding</h1>
+
+  <div id="container">
+    <canvas id="dragonCanvas" width="300" height="300"></canvas>
+    <img id="fotoSaya" src="https://i.imgur.com/PvkSG6I.jpg" alt="Foto Saya" />
+  </div>
+
+  <p class="justify"><strong>Saya Soli Deo</strong>, seorang Desainer Product dan Branding.</p>
+  <p class="justify">Saya sedang berkuliah di <strong>Institut Teknologi Sumatera</strong> dengan program studi <strong>Desain Komunikasi Visual</strong>.</p>
+
+  <h2>Galeri Karya</h2>
+  <div class="gallery-scroll">
+    <div class="gallery">
+      <img src="https://drive.google.com/uc?export=view&id=1S-v7GgQMpCbwYguQRcRZbbLxW1f5YV9X" />
+      <img src="https://drive.google.com/uc?export=view&id=1EErYtU1441bh6s80EzdzzNJUy0uEK4hb" />
+      <img src="https://drive.google.com/uc?export=view&id=1nBMjHtYpVZY26ECa97HGNuEsPCvvk0nx" />
+      <img src="https://drive.google.com/uc?export=view&id=1zeR6I4TzOQG0O8UMoJ6K9O51NaRq2IO9" />
+      <img src="https://drive.google.com/uc?export=view&id=10w6Qhd7ADML3D_p6fV-ZW5wyB3Sge_73" />
+      <img src="https://drive.google.com/uc?export=view&id=15qqRz4XhaM5y1TAQWD7ZWk9-MzP4FRJY" />
+      <img src="https://drive.google.com/uc?export=view&id=1BnJqkeBnaejdAiYbMdwE6KbRdMITNnSO" />
+      <img src="https://drive.google.com/uc?export=view&id=18yISnzdVgdtY4riDkriKcfgScMqvhMVJ" />
+    </div>
+  </div>
+
+  <h2>Hobi Saya</h2>
+  <ul>
+    <li>Membaca</li>
+    <li>Ngoding</li>
+    <li>Bermain musik</li>
+    <li>Membuat Aplikasi</li>
+    <li>Membranding Product</li>
+  </ul>
+
+  <h2>Branding itu Sangat Penting</h2>
+  <p class="justify">Branding adalah hal yang sangat penting ...</p>
+  <!-- (potongan teks branding disingkat di sini untuk kejelasan) -->
+
+  <h2>Hubungi Saya</h2>
+  <form id="kontakForm" action="https://formsubmit.co/solideo123456@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false" />
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+    <button type="submit" class="submit-button">Kirim</button>
+  </form>
+
+  <div id="successMessage" class="success-message" style="display:none;">
+    Pesan kamu sudah terkirim! 🎉 Terima kasih ya.
+  </div>
+
+  <div class="social">
+    <h2>Ikuti Saya</h2>
+    <a href="https://instagram.com/solideouxui" target="_blank">Instagram</a>
+    <a href="mailto:solideo123456@gmail.com">Email</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
