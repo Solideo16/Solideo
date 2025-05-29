@@ -1,2 +1,0 @@
-# Solideo
-Web-Portofollio
